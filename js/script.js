@@ -46,10 +46,22 @@ function myprompt(){
     for(let i=0; i < 5; i++){
         const numeroUtente = prompt('inserisci qualcosa ')
         if(arr[i] == numeroUtente ){
-            console.log('numero giusto ')
+            const result = 'numero giusto'
+            let myDiv = document.createElement('div');
+            myDiv.append(result)
+            myContainer.append(myDiv)
+
+
+
+
+            console.log('numero giusto ',result,typeof result)
         }
         else{
-            console.log('numero sbagliato')
+            const result = 'numero sbagliato '
+            let myDiv = document.createElement('div');
+            myDiv.append(result)
+            myContainer.append(myDiv)
+
         }
     }
 }
