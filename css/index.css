@@ -14,3 +14,13 @@
 }
 
 /* GENERAL */
+
+
+.cell{
+    padding : 10px;
+}
+
+.none{
+    display: none;
+    
+}
